@@ -28,4 +28,7 @@
 		<!-- Raw Assets (also remove the "Resources\Raw" prefix) -->
 		<MauiAsset Include="Resources\Raw\**" LogicalName="%(RecursiveDir)%(Filename)%(Extension)" />
 	</ItemGroup>
+	<ItemGroup>
+		<PackageReference Include="Mapsui.Maui" Version="4.0.0-beta.5" />
+	</ItemGroup>
 </Project>
